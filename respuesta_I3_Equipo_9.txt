@@ -10,3 +10,26 @@ a)El branch main queda actualizado con la version definitiva e integrada de los 
 b)Si beta pudo ver absolutamente todos los cambios, pero no de forma automatica ya que tuvo que ejecutar primero un (git fetch) 
  seguido de un (git pull) para descargar el trabajo de GAMMA habia subido a las ramas.
 c)Para realizar el merge BETA tuvo que primero un (git fech) luego un (git checkout main) despues un (git merge perez)
+
+GAMMA:
+
+d- ¿Las ramas creadas por BETA y GAMMA quedan con datos actualizados?
+No, las ramas originales no quedan con los datos actualizados. Cuando BETA realiza el merge hacia la rama principal, es esta última la que avanza e incorpora todos los cambios consolidados. 
+Las ramas creadas por BETA y GAMMA se quedan "congeladas" en el estado exacto de su último commit. Para actualizarlas, habría que posicionarse en cada una de ellas y hacer un git pull origin master.
+
+e- Detalle (explique) los problemas que tuvieron al hacer el merge:
+El principal problema al intentar hacer el merge fue el desfasage de los datos. No olvidamos de relizar pull y 
+tener actualizados los datos, lo que pasaba era tener que volver a la rama, actualizar los datos locales y hacer el merge completo.
+
+f- ¿Qué debió hacer (todos los comandos) en el punto 7 para poder hacer lo pedido?
+Para poder descargar la rama de mi compañero, agregar mis datos al archivo y subir 
+los cambios, ejecuté la siguiente secuencia de comandos desde mi entorno Linux:
+
+git fetch
+git checkout nolasco
+git pull origin nolasco
+echo "Luis Alberto Perez - Hora: $(date)" >> beta.txt
+ifconfig >> beta.txt (no me funciono,  asi que hice ifconfig, lo copie a mano y listo)
+git add beta.txt
+git commit -m "Gamma: agrega datos personales e ifconfig"
+git push origin nolasco
