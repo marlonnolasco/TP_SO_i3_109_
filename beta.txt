@@ -1,0 +1,27 @@
+Marlon Nolasco - Hora: Wed Jun 17 11:45:07     2026
+
+Configuraci¢n IP de Windows
+
+
+Adaptador de Ethernet Ethernet 2:
+
+   Sufijo DNS espec¡fico para la conexi¢n. . : 
+   V¡nculo: direcci¢n IPv6 local. . . : fe80::f8f8:a49a:3b6b:daf5%3
+   Direcci¢n IPv4. . . . . . . . . . . . . . : 192.168.56.1
+   M scara de subred . . . . . . . . . . . . : 255.255.255.0
+   Puerta de enlace predeterminada . . . . . : 
+
+Adaptador de Ethernet Ethernet:
+
+   Sufijo DNS espec¡fico para la conexi¢n. . : 
+   V¡nculo: direcci¢n IPv6 local. . . : fe80::8ec7:e09e:6ae0:ebb6%8
+   Direcci¢n IPv4. . . . . . . . . . . . . . : 192.168.0.108
+   M scara de subred . . . . . . . . . . . . : 255.255.255.0
+   Puerta de enlace predeterminada . . . . . : 192.168.0.1
+
+Adaptador de t£nel Teredo Tunneling Pseudo-Interface:
+
+   Sufijo DNS espec¡fico para la conexi¢n. . : 
+   Direcci¢n IPv6 . . . . . . . . . . : 2001:0:14c9:cd04:287d:3739:4197:d3be
+   V¡nculo: direcci¢n IPv6 local. . . : fe80::287d:3739:4197:d3be%11
+   Puerta de enlace predeterminada . . . . . : ::
