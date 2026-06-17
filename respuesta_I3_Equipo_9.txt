@@ -1,0 +1,12 @@
+nolasco marlon
+perez luis
+tuama franco
+
+
+beta:
+a)El branch main queda actualizado con la version definitiva e integrada de los archivos.Contiene el archivo datos.txt
+ unificado con los datos personales de los tres integrantes, los tres archivos individuales de CPU(CPualfa.txt , CPUbeta-txt ,
+ CPUGamma.txt) y finalmente el archivo beta.txt.
+b)Si beta pudo ver absolutamente todos los cambios, pero no de forma automatica ya que tuvo que ejecutar primero un (git fetch) 
+ seguido de un (git pull) para descargar el trabajo de GAMMA habia subido a las ramas.
+c)Para realizar el merge BETA tuvo que primero un (git fech) luego un (git checkout main) despues un (git merge perez)
